@@ -1,6 +1,7 @@
 .root {
-  background-color: #2A2C2F;
-  font-family: 'Inter', 'Helvetica Neue', 'Arial', sans-serif;
   --text: white;
-  --url: #AAA;
+  --url: #aaa;
+  --bg: #2a2c2f;
+  background-color: var(--bg);
+  font-family: 'Inter', 'Helvetica Neue', 'Arial', sans-serif;
 }

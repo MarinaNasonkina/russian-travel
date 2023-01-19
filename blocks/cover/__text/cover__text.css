@@ -1,0 +1,6 @@
+.cover__text {
+  grid-area: 1 / 1;
+  justify-self: center;
+  align-self: center;
+  z-index: 1;
+}
