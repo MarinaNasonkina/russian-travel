@@ -19,19 +19,23 @@
           <a href="#" class="header__lang-link">En</a>
         </nav>
       </header>
-      <main class="content">
+      <main>
         <div class="wrapper">
           <section class="lead">
             <h1 class="lead__title">Путешествия по&nbsp;России</h1>
             <p class="lead__subtitle">
               Настоящая страна не в выпусках новостей, а&nbsp;здесь.
             </p>
-            <img
-              src="./images/lead.jpg"
-              alt="Женщина спит на нижнем боковом месте, за окном вагоны-цистерны."
-              class="lead__image"
-            >
-            <p class="lead__caption">ваша полка — верхняя</p>
+            <figure class="lead__figure">
+              <img
+                src="./images/lead.jpg"
+                alt="Плацкарт: женщина спит на нижнем боковом месте, за окном вагоны-цистерны."
+                class="image"
+              >
+              <figcaption class="lead__caption">
+                ваша полка — верхняя
+              </figcaption>
+            </figure>
           </section>
           <section class="intro">
             <h2 class="intro__title">Чего мы&nbsp;там не&nbsp;видели?</h2>
@@ -76,62 +80,62 @@
           <img
             src="./images/photo-grid/item1.jpg"
             alt="Вид из окна поезда на море."
-            class="photo-grid__item"
+            class="image"
           >
           <img
             src="./images/photo-grid/item2.jpg"
             alt="Кавказские горы с высоты птичьего полета."
-            class="photo-grid__item"
+            class="image"
           >
           <img
             src="./images/photo-grid/item3.jpg"
             alt="Рассвет, туман, стога, собака."
-            class="photo-grid__item"
+            class="image"
           >
           <img
             src="./images/photo-grid/item4.jpg"
             alt="Вид с горы на густой туман над еловым лесом."
-            class="photo-grid__item"
+            class="image"
           >
           <img
             src="./images/photo-grid/item5.jpg"
             alt="Машина на замерзшем Байкале."
-            class="photo-grid__item"
+            class="image"
           >
           <img
             src="./images/photo-grid/item6.jpg"
             alt="Пляж летнего Байкала с видом на гору Маркова."
-            class="photo-grid__item"
+            class="image"
           >
           <img
             src="./images/photo-grid/item7.jpg"
             alt="Снежные вершины Эльбруса."
-            class="photo-grid__item"
+            class="image"
           >
           <img
             src="./images/photo-grid/item8.jpg"
             alt="Знак пешеходного перехода, на фоне тетраподы-волнорезы."
-            class="photo-grid__item"
+            class="image"
           >
           <img
             src="./images/photo-grid/item9.jpg"
             alt="Камчатка, вулкан Мутновский в облаках."
-            class="photo-grid__item"
+            class="image"
           >
           <img
             src="./images/photo-grid/item10.jpg"
             alt="Камчатка, поляна мха перед Корякским вулканом."
-            class="photo-grid__item"
+            class="image"
           >
           <img
             src="./images/photo-grid/item11.jpg"
             alt="Снежные сопки Байкала."
-            class="photo-grid__item"
+            class="image"
           >
           <img
             src="./images/photo-grid/item12.jpg"
             alt="Горы Ергаки в облаках, Красноярский край."
-            class="photo-grid__item"
+            class="image"
           >
         </section>
         <section class="places" aria-label="Топ-5 интересных мест">
@@ -140,7 +144,7 @@
             <img
               src="./images/places/kosa.jpg"
               alt="Каменистый берег с растущими в воде корнями и пнями."
-              class="place__image"
+              class="image place__image"
             >
             <div class="place__website">
               <p class="place__url-heading">URL</p>
@@ -174,7 +178,7 @@
             <img
               src="./images/places/kolsky.jpg"
               alt="Берег Баренцева моря: снежные горы, камни, вспененные волны."
-              class="place__image"
+              class="image place__image"
             >
             <div class="place__website">
               <p class="place__url-heading">URL</p>
@@ -207,7 +211,7 @@
             <img
               src="./images/places/altai.jpg"
               alt="Вид с террасы на лиственный зеленый лес."
-              class="place__image"
+              class="image place__image"
             >
             <div class="place__website">
               <p class="place__url-heading">URL</p>
@@ -240,7 +244,7 @@
             <img
               src="./images/places/baikal.jpg"
               alt="Узор трещин замерзшего Байкала."
-              class="place__image"
+              class="image place__image"
             >
             <div class="place__website">
               <p class="place__url-heading">URL</p>
@@ -272,7 +276,7 @@
             <img
               src="./images/places/karelia.jpg"
               alt="Узкое озеро в лесах Карелии."
-              class="place__image"
+              class="image place__image"
             >
             <div class="place__website">
               <p class="place__url-heading">URL</p>
@@ -308,7 +312,7 @@
             <img
               src="./images/cover.jpg"
               alt="Железные дороги с множеством поездов на закате."
-              class="cover__background"
+              class="image cover__background"
             >
             <div class="cover__overlay"></div>
             <div class="cover__text">
@@ -354,9 +358,7 @@
             >Путешествия</a
           >
         </nav>
-        <p class="footer__copyright">
-          © 2023. Насонкина М. В.
-        </p>
+        <p class="footer__copyright">© 2023. Насонкина М. В.</p>
       </footer>
     </div>
   </body>

@@ -7,3 +7,9 @@
   letter-spacing: 2px;
   color: var(--url);
 }
+
+@media screen and (min-width: 1280px) {
+  .place__url-heading {
+    line-height: 1.7;
+  }
+}
