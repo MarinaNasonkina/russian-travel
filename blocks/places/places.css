@@ -2,7 +2,6 @@
   width: calc(100% - 96px);
   max-width: 984px;
   margin: auto;
-  padding-bottom: 92px;
   display: flex;
   flex-direction: column;
   gap: 80px;
@@ -11,7 +10,6 @@
 @media screen and (max-width: 1023px) {
   .places {
     width: calc(100% - 48px);
-    padding-bottom: 90px;
     gap: 73px;
   }
 }
@@ -19,7 +17,6 @@
 @media screen and (max-width: 425px) {
   .places {
     width: 100%;
-    padding-bottom: 66px;
     gap: 50px;
   }
 }

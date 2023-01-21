@@ -1,7 +1,4 @@
 .root {
-  --text: white;
-  --url: #aaa;
-  --bg: #2a2c2f;
   background-color: var(--bg);
   font-family: 'Inter', 'Helvetica Neue', 'Arial', sans-serif;
 }

@@ -25,6 +25,8 @@
   - Grid Layout
   - Media queries
   - Flexbox
+  - Position
+  - Псевдоэлементы
   - Hover-эффекты
   - Кастомные свойства
   - Сглаженные шрифты

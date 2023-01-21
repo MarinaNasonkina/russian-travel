@@ -12,3 +12,11 @@
     line-height: 1;
   }
 }
+
+@media screen and (max-width: 343px) {
+  .footer__copyright {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 1em;
+  }
+}
